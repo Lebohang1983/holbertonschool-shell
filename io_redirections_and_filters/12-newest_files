@@ -1,0 +1,2 @@
+#!/bin/bash
+find /sample_directory -type f -exec ls -t1 {} + | head -1
